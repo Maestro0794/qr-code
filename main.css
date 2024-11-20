@@ -1,0 +1,47 @@
+:root {
+    --primary-color: hsl(0, 0%, 100%); /* White */
+    --secondary-color: hsl(212, 45%, 89%); /* Slate 300 */
+    --text-color: hsl(216, 15%, 48%); /* Slate 500 */
+    --main-text-color: hsl(218, 44%, 22%); /* Slate 900 */
+  }
+
+
+body {
+
+    background-color: var(--secondary-color);
+    color: var(--main-text-color);
+    font-family: "Outfit", sans-serif;
+    font-size: 11px;
+    font-weight: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    margin: 0;
+    text-align: center;
+}
+
+.qr{
+    background-color: var(--primary-color);
+    width: 200px;
+
+    border-radius: 5px;
+    padding: 10px;
+}
+.qr__image{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+.qr__container {
+    padding: 0 5px 0;
+}
+.qr__title {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.qr__subtitle {
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
