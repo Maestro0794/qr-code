@@ -72,7 +72,7 @@ Thanks to [Frontend Mentor](https://www.frontendmentor.io) for providing this ch
 
 ## Live Preview
 
-Check out the live version of the project here: [Live Demo]()
+Check out the live version of the project here: [Live Demo](https://maestro0794.github.io/qr-code/)
 
 ---
 
